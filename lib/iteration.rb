@@ -6,11 +6,12 @@ def join_ingredients(src)
     element = 0 
     while element < src[row].count do 
       lit_array << src[row][element]
+      element += 1 
     end 
-    element += 1 
+    new_array << lit_array
+    row += 1 
   end
-  new_array << lit_array
-  row += 1 
+  return new_array
 end
 
 def find_greater_pair(src)
