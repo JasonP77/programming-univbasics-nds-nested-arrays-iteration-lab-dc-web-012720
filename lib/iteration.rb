@@ -8,10 +8,10 @@ def join_ingredients(src)
       lit_array << src[row][element]
       element += 1 
     end 
-    new_array << lit_array
+    new_array << "I love #{lit_array[0]} and #{lit_array[1]} on my pizza"
     row += 1 
   end
-  return 
+  return new_array
 end
 
 def find_greater_pair(src)
