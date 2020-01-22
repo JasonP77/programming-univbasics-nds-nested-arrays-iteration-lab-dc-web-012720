@@ -11,7 +11,7 @@ def join_ingredients(src)
     new_array << lit_array
     row += 1 
   end
-  return new_array
+  return 
 end
 
 def find_greater_pair(src)
