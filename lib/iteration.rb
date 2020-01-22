@@ -19,8 +19,10 @@ def find_greater_pair(src)
   row = 0 
   while row < src.count do
     lit_array = []
+    element = 0 
     while element < src[row].count do 
       lit_array << src[row].max
+      element += 1 
     end
     new_array << lit_array
     row += 1 
