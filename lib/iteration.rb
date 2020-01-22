@@ -18,13 +18,13 @@ def find_greater_pair(src)
   new_array = []
   row = 0 
   while row < src.count do
-    lit_array = []
+    num = 0 
     element = 0 
     while element < src[row].count do 
-      lit_array << src[row].max
+       num = src[row].max
       element += 1 
     end
-    new_array << lit_array
+    new_array << num
     row += 1 
   end
   return new_array
